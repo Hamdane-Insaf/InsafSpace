@@ -1,0 +1,32 @@
+:root {
+  /* Colors */
+  --color-bg: #f8faff;
+  --color-surface: #ffffff;
+  --color-tint: #e8eeff;
+  --color-primary: #16226b;
+  --color-accent: #2f54eb;
+  --color-text: #1b1f3b;
+  --color-muted: #5b6280;
+  --color-border: #dde4f5;
+
+  /* Typography */
+  --font-main: "Plus Jakarta Sans", system-ui, sans-serif;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 2rem;
+  --text-hero: clamp(2.5rem, 6vw, 4.25rem);
+
+  /* Spacing */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 5rem;
+
+  /* Shape */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-full: 999px;
+  --shadow-card: 0 8px 24px rgba(22, 34, 107, 0.08);
+}
