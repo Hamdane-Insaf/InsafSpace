@@ -37,3 +37,10 @@ a {
   outline: 3px solid var(--color-accent);
   outline-offset: 3px;
 }
+.section {
+  padding: var(--space-5) 0;
+}
+
+.section--white {
+  background: var(--color-surface);
+}
