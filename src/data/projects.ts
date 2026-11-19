@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "SecureFlow – Intelligent DevSecOps Assistant",
     description:
       "A platform that automates and secures CI/CD pipelines, combining security analysis tools with AI to diagnose pipeline errors.",
-    image: "/images/projects/secureflow.png",
+    image: "/images/projects/SecureFlow.jpeg",
     tags: ["React", "TypeScript", "Python", "FastAPI", "Docker", "GitHub Actions", "LangGraph"],
     category: "personal",
     githubUrl: "https://github.com/Hamdane-Insaf/...",
@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: "IntelliOps",
     description:
       "An intelligent DevSecOps monitoring and incident management platform, built on a multi-agent system with human-in-the-loop validation.",
-    image: "/images/projects/intelliops.png",
+    image: "/images/projects/IntelliOps.jpeg",
     tags: ["LangGraph", "LangChain", "RAG", "Kubernetes", "Grafana", "Terraform"],
     category: "academic",
     liveUrl: "https://...",
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     title: "Portfy",
     description:
       "A digital portfolio platform with a teacher interface and LLM-generated recommendation letters, managed in Agile sprints.",
-    image: "/images/projects/portfy.png",
+    image: "/images/projects/portfy.jpeg",
     tags: ["Vue.js", "Express.js", "Docker", "Ansible", "Jira"],
     category: "academic",
     liveUrl: "https://...",

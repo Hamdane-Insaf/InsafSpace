@@ -46,7 +46,7 @@ export default function Experience() {
 
           <img
             className="experience__image"
-            src="/images/csc.jpg"
+            src="/images/CSC.jpeg"
             alt="Computer Science Club ENSA Tangier"
             loading="lazy"
           />

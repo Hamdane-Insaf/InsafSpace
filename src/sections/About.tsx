@@ -16,7 +16,7 @@ export default function About() {
         <div className="about__grid">
           <img
             className="about__image"
-            src="/images/ensa.jpg"
+            src="/images/ENSAT.png"
             alt="ENSA Tangier campus"
           />
 
