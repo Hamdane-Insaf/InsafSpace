@@ -12,6 +12,7 @@ export interface Project {
   description: string;
   image: string;
   tags: string[];
+  category: "academic" | "personal";
   liveUrl?: string;
   githubUrl?: string;
   featured?: boolean;
