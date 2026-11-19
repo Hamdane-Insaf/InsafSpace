@@ -51,7 +51,7 @@ export default function Contact() {
             <ul className="contact__info">
               <li>
                 <Mail size={20} />
-                <a href="mailto:insaf.hamdane@ensat.ac.ma">insaf.hamdane@ensat.ac.ma</a>
+                <a href="mailto:insaf.hamdane@etu.uae.ac.ma">insaf.hamdane@etu.uae.ac.ma</a>
               </li>
               <li>
                 <MapPin size={20} />

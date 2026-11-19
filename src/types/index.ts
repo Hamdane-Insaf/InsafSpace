@@ -1,6 +1,9 @@
-export interface Skill {
-  name: string;
-  icon: string; // URL ou chemin de l'icône
+import type { LucideIcon } from "lucide-react";
+
+export interface SkillCategory {
+  title: string;
+  icon: LucideIcon;
+  items: string[];
 }
 
 export interface Project {

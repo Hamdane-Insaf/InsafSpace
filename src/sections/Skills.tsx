@@ -1,6 +1,6 @@
 import Container from "../components/layout/Container";
 import SectionTitle from "../components/common/SectionTitle";
-import { skills } from "../data/skills";
+import { skillCategories } from "../data/skills";
 import "./Skills.css";
 
 export default function Skills() {
@@ -15,10 +15,16 @@ export default function Skills() {
           />
 
           <ul className="skills__list">
-            {skills.map((s) => (
-              <li key={s.name} className="skills__item">
-                <img src={s.icon} alt="" width={36} height={36} />
-                <span>{s.name}</span>
+            {skillCategories.map(({ title, icon: Icon, items }) => (
+              <li key={title} className="skills__card">
+                <h3>
+                  <Icon size={20} /> {title}
+                </h3>
+                <ul className="skills__chips">
+                  {items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
               </li>
             ))}
           </ul>

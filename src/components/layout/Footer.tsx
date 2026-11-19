@@ -13,7 +13,7 @@ export default function Footer() {
             <a href="https://github.com/Hamdane-Insaf" target="_blank" rel="noreferrer">
               GitHub
             </a>
-            <a href="https://www.linkedin.com/in/TON-PROFIL" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/insaf-hamdane" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
             <a href="#home" className="footer__top" aria-label="Back to top">

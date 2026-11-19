@@ -4,7 +4,7 @@ import SectionTitle from "../components/common/SectionTitle";
 import "./About.css";
 
 const facts = [
-  { icon: GraduationCap, title: "ENSA Tangier", text: "GINF1" },
+  { icon: GraduationCap, title: "ENSA Tangier", text: "GINF2" },
   { icon: Target, title: "My Goal", text: "Full-Stack Developer" },
   { icon: Heart, title: "Interests", text: "Tech • Innovation • AI" },
 ];
