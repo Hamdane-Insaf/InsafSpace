@@ -4,7 +4,6 @@ import SectionTitle from "../components/common/SectionTitle";
 import { experiences } from "../data/experience";
 import type { Experience as ExperienceType } from "../types";
 import "./Experience.css";
-import { section } from "framer-motion/m";
 
 const icons: Record<ExperienceType["type"], typeof Users> = {
   leadership: Users,
